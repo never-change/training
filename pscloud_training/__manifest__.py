@@ -8,8 +8,8 @@
     'category': 'Tools',
     'depends': ['base'],
     'data': [
-        #'security/ir.model.access.csv',
-        #'views/res_partner_views.xml',
+        'security/ir.model.access.csv',
+        'views/res_partner_views.xml',
         #'views/training_views.xml',
     ],
     'demo': [
