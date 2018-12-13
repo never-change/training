@@ -3,7 +3,7 @@
     <data>
 
         <record id="action_training_partner" model="ir.actions.act_window">
-            <field name="name">客户</field>
+            <field name="name">partner模型</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">res.partner</field>
             <field name="view_type">form</field>
@@ -12,7 +12,7 @@
             <field name="context"></field>
         </record>
         
-        <menuitem id="partner_menu_root" name="练习模块" sequence="0"/>
+        <menuitem id="partner_menu_root" name="partner模型" sequence="0"/>
         <menuitem id="partner_menu" parent="partner_menu_root" action="action_training_partner" sequence="10"/>
 
     </data>
